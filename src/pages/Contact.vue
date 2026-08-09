@@ -1,7 +1,13 @@
 <template>
   <section>
-    <h1>Contact</h1>
-    <p>Email: your@gmail.com</p>
-    <p>LinkedIn: <a href="#" target="_blank">Link</a></p>
+    <h1>{{ t('contact.title') }}</h1>
+    <p>{{ t('contact.email') }}: your@gmail.com</p>
+    <p>{{ t('contact.linkedin') }}: <a href="#" target="_blank">Link</a></p>
   </section>
 </template>
+
+<script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
