@@ -1,1 +1,58 @@
-@import "tailwindcss";
+/* ============================================================
+   設計變數（design tokens）
+   全站唯一的顏色與間距來源。元件內禁止硬編碼色票，
+   margin / padding / gap 只准從間距階（8 的倍數）取值。
+   ============================================================ */
+:root {
+  --color-bg: #faf9f7;
+  --color-text: #1f2328;
+  --color-muted: #6f6a63;
+  --color-accent: #2563eb;
+  --color-border: #e5e1da;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+}
+
+/* ============================================================
+   Reset：抹平瀏覽器預設值，讓元素從可預期的狀態開始
+   ============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-accent);
+}

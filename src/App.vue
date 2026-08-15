@@ -1,27 +1,4 @@
 <template>
-  <NavBar />
-
-  <main class="container">
-    <router-view />
-  </main>
-
-  <Footer />
+  <!-- 版型外殼：Day 2 掛 Navbar、Day 9 掛 footer，目前只有頁面本體 -->
+  <router-view />
 </template>
-
-<script setup lang="ts">
-import NavBar from './components/NavBar.vue'
-import Footer from './components/Footer.vue'
-</script>
-
-<style>
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-}
-
-.container {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-</style>
