@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Home',
+    skills: 'Skills',
     projects: 'Projects',
     about: 'About',
     contact: 'Contact',
@@ -19,7 +20,7 @@ export default {
       },
       gamedev: {
         title: 'Game Dev',
-        items: ['Laya / Pixi / Canvas', 'Animation / Effects', 'Gameplay Systems'],
+        items: ['Web Game Development', 'Animation / Effects', 'Gameplay Systems'],
       },
       engineering: {
         title: 'Engineering',

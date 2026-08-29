@@ -1,4 +1,9 @@
 <template>
-  <!-- 版型外殼：Day 2 掛 Navbar、Day 9 掛 footer，目前只有頁面本體 -->
+  <!-- 版型外殼：Day 9 掛 footer -->
+  <NavBar />
   <router-view />
 </template>
+
+<script setup lang="ts">
+import NavBar from './components/NavBar.vue'
+</script>

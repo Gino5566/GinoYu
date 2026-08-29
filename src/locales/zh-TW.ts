@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: '首頁',
+    skills: '技能',
     projects: '作品',
     about: '關於我',
     contact: '聯絡',
@@ -19,7 +20,7 @@ export default {
       },
       gamedev: {
         title: '遊戲開發',
-        items: ['Laya / Pixi / Canvas', '動畫 / 特效', '玩法系統'],
+        items: ['網頁遊戲開發', '動畫 / 特效', '玩法系統'],
       },
       engineering: {
         title: '工程',
