@@ -28,6 +28,15 @@ const logs: LogEntry[] = [
       '學到nav是語意標籤 畫面上等同div 是寫給搜尋引擎、區塊化(類似分類讓後續開發可以更容易知道每個區域它的功能是什麼不至於全部都用一樣的)',
     img: 'logs/day2.png',
   },
+  {
+    day: 3,
+    block: 'Hero 自介區',
+    built: '這次初步實作自介的結構',
+    broke:
+      '試著將align-items: flex-start;拿掉 但因為按鈕沒有變化 有趣的是當我把column拿掉時因為變成水平的關係 按鈕變高了 然後max-width拿掉後desc會失去限制到最大範圍才會換行',
+    learned: 'CSS遇到看不懂的宣告會默默跳過不報錯(r:那行的教訓)',
+    img: 'logs/day3.png',
+  },
 ]
 
 export default logs

@@ -7,10 +7,10 @@ export default {
     contact: '聯絡',
   },
   home: {
-    heroTitle1: '創意',
-    heroTitle2: '遊戲開發者',
-    heroTitle3: '＆ 網頁工程師',
-    heroDesc: '我用 {ts} 與 {vue} 打造互動體驗、遊戲系統，以及現代網頁應用。',
+    hero: {
+      kicker: '前端工程師 · Vue 3 / TypeScript',
+      desc: '主力 Vue 3 與 TypeScript，手刻介面、重視可讀性，正把能力往全端與工程化（CI/CD、測試）擴展。',
+    },
     projects: '查看作品',
     contact: '聯絡我',
     skills: {

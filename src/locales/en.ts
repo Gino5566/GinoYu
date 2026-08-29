@@ -7,10 +7,10 @@ export default {
     contact: 'Contact',
   },
   home: {
-    heroTitle1: 'Creative',
-    heroTitle2: 'Game Developer',
-    heroTitle3: '& Web Engineer',
-    heroDesc: 'I create interactive experiences, game systems, and modern web applications using {ts} & {vue}.',
+    hero: {
+      kicker: 'Front-end Developer · Vue 3 / TypeScript',
+      desc: 'I build hand-crafted, readable interfaces with Vue 3 and TypeScript, and am expanding toward full-stack work (CI/CD, testing).',
+    },
     projects: 'View Projects',
     contact: 'Contact Me',
     skills: {
