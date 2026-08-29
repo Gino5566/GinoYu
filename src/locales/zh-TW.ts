@@ -16,7 +16,7 @@ export default {
     skills: {
       frontend: {
         title: '前端',
-        items: ['Vue 3 + TypeScript', 'Vite / Tailwind', 'i18n 多語系架構'],
+        items: ['Vue 3 / TypeScript', '原生 CSS / RWD 切版', 'vue-i18n 多語系'],
       },
       gamedev: {
         title: '遊戲開發',
@@ -24,7 +24,7 @@ export default {
       },
       engineering: {
         title: '工程',
-        items: ['乾淨架構', '可重用元件', 'CI / GitHub Pages'],
+        items: ['C# / .NET / SQL', 'GitHub Actions 自動部署', 'Docker / 自動化測試'],
       },
     },
   },

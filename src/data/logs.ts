@@ -37,6 +37,16 @@ const logs: LogEntry[] = [
     learned: 'CSS遇到看不懂的宣告會默默跳過不報錯(r:那行的教訓)',
     img: 'logs/day3.png',
   },
+  {
+    day: 4,
+    block: '技能區（flex-wrap）',
+    built: '新增首頁的技能卡',
+    broke:
+      '將wrap拿掉並且將頁面縮窄技能標籤會變成很扁 basis的修改會讓換行的判定修改 grow改成2 會讓元件分配剩餘空間的比例改變',
+    learned:
+      '觀察到如果wrap拿掉並且shrink設成0 將頁面縮窄標籤壓縮到basis值後就不會再壓縮 只會變成頁面可以左右滑',
+    img: 'logs/day4.png',
+  },
 ]
 
 export default logs

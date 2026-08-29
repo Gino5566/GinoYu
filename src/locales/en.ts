@@ -16,7 +16,7 @@ export default {
     skills: {
       frontend: {
         title: 'Frontend',
-        items: ['Vue 3 + TypeScript', 'Vite / Tailwind', 'i18n-ready Architecture'],
+        items: ['Vue 3 / TypeScript', 'Native CSS / RWD', 'vue-i18n Localization'],
       },
       gamedev: {
         title: 'Game Dev',
@@ -24,7 +24,7 @@ export default {
       },
       engineering: {
         title: 'Engineering',
-        items: ['Clean Architecture', 'Reusable Components', 'CI / GitHub Pages'],
+        items: ['C# / .NET / SQL', 'GitHub Actions CI/CD', 'Docker / Testing'],
       },
     },
   },
