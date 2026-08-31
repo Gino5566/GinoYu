@@ -4,6 +4,10 @@ on:
   push:
     branches: [master]
 
+# GITHUB_TOKEN 預設唯讀；Deploy 要推 gh-pages 分支，需要 contents 寫入權
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
