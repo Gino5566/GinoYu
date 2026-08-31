@@ -30,7 +30,11 @@ export default {
   },
   projects: {
     title: '作品',
-    view: '查看專案',
+    view: '查看原始碼',
+    portfolio: {
+      name: '個人作品集網站',
+      desc: '就是你正在看的這個站。Vue 3 + 原生 CSS 手刻，含多語系與 GitHub Actions 自動部署。',
+    },
   },
   about: {
     title: '關於我',

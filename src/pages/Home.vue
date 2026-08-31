@@ -23,6 +23,28 @@
         </article>
       </div>
     </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">{{ t('projects.title') }}</h2>
+      <article class="project-card">
+        <div class="card-cover" aria-hidden="true">Portfolio</div>
+        <div class="card-body">
+          <h3>{{ t('projects.portfolio.name') }}</h3>
+          <p>{{ t('projects.portfolio.desc') }}</p>
+          <ul class="card-tags">
+            <li>Vue 3</li>
+            <li>TypeScript</li>
+            <li>Native CSS</li>
+          </ul>
+          <a
+            class="card-link"
+            href="https://github.com/Gino5566/GinoYu"
+            target="_blank"
+            rel="noopener"
+          >{{ t('projects.view') }}</a>
+        </div>
+      </article>
+    </section>
   </main>
 </template>
 
@@ -112,6 +134,51 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
 
 .skill-card li {
   margin-top: var(--space-1);
+  color: var(--color-muted);
+}
+
+.projects {
+  margin-top: var(--space-8);
+}
+
+.project-card {
+  max-width: 360px;
+  margin-top: var(--space-3);
+  border: 1px solid var(--color-border);
+}
+
+.card-cover {
+  aspect-ratio: 16 / 9;
+  background: var(--color-border);
+  color: var(--color-muted);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.card-body p {
+  color: var(--color-muted);
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.card-tags li {
+  border: 1px solid var(--color-border);
+  padding: 0 var(--space-1);
+  font-size: 0.875rem;
   color: var(--color-muted);
 }
 </style>

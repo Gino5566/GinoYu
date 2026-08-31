@@ -30,7 +30,11 @@ export default {
   },
   projects: {
     title: 'Projects',
-    view: 'View Project',
+    view: 'View Source',
+    portfolio: {
+      name: 'Personal Portfolio Site',
+      desc: 'The site you are looking at. Hand-built with Vue 3 and native CSS, with i18n and GitHub Actions auto-deploy.',
+    },
   },
   about: {
     title: 'About Me',
