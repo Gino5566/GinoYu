@@ -26,24 +26,39 @@
 
     <section id="projects" class="projects">
       <h2 class="section-title">{{ t('projects.title') }}</h2>
-      <article class="project-card">
-        <div class="card-cover" aria-hidden="true">Portfolio</div>
-        <div class="card-body">
-          <h3>{{ t('projects.portfolio.name') }}</h3>
-          <p>{{ t('projects.portfolio.desc') }}</p>
-          <ul class="card-tags">
-            <li>Vue 3</li>
-            <li>TypeScript</li>
-            <li>Native CSS</li>
-          </ul>
-          <a
-            class="card-link"
-            href="https://github.com/Gino5566/GinoYu"
-            target="_blank"
-            rel="noopener"
-          >{{ t('projects.view') }}</a>
-        </div>
-      </article>
+      <div class="project-cards">
+        <article class="project-card">
+          <div class="card-cover" aria-hidden="true">Portfolio</div>
+          <div class="card-body">
+            <h3>{{ t('projects.portfolio.name') }}</h3>
+            <p>{{ t('projects.portfolio.desc') }}</p>
+            <ul class="card-tags">
+              <li>Vue 3</li>
+              <li>TypeScript</li>
+              <li>Native CSS</li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/Gino5566/GinoYu"
+              target="_blank"
+              rel="noopener"
+            >{{ t('projects.view') }}</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-cover" aria-hidden="true">Dashboard</div>
+          <div class="card-body">
+            <h3>{{ t('projects.dashboard.name') }}</h3>
+            <p>{{ t('projects.dashboard.desc') }}</p>
+            <ul class="card-tags">
+              <li>Vue 3</li>
+              <li>TypeScript</li>
+            </ul>
+            <span class="card-wip">{{ t('projects.wip') }}</span>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
 </template>
@@ -141,9 +156,14 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
   margin-top: var(--space-8);
 }
 
-.project-card {
-  max-width: 360px;
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-2);
   margin-top: var(--space-3);
+}
+
+.project-card {
   border: 1px solid var(--color-border);
 }
 
@@ -180,5 +200,10 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
   padding: 0 var(--space-1);
   font-size: 0.875rem;
   color: var(--color-muted);
+}
+
+.card-wip {
+  color: var(--color-muted);
+  font-size: 0.875rem;
 }
 </style>

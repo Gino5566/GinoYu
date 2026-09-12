@@ -35,6 +35,11 @@ export default {
       name: '個人作品集網站',
       desc: '就是你正在看的這個站。Vue 3 + 原生 CSS 手刻，含多語系與 GitHub Actions 自動部署。',
     },
+    dashboard: {
+      name: 'Dashboard Demo',
+      desc: '資料儀表板作品，整理中，近期接入。',
+    },
+    wip: '整理中',
   },
   about: {
     title: '關於我',

@@ -35,6 +35,11 @@ export default {
       name: 'Personal Portfolio Site',
       desc: 'The site you are looking at. Hand-built with Vue 3 and native CSS, with i18n and GitHub Actions auto-deploy.',
     },
+    dashboard: {
+      name: 'Dashboard Demo',
+      desc: 'A data dashboard project, being polished — coming soon.',
+    },
+    wip: 'Coming soon',
   },
   about: {
     title: 'About Me',

@@ -55,6 +55,14 @@ const logs: LogEntry[] = [
     learned: 'Build全綠不等於上線成功 部署鏈每一棒都可能單獨壞',
     img: 'logs/day5.png',
   },
+  {
+    day: 6,
+    block: '作品卡片列（Grid）',
+    built: '作品卡片列改用Grid排版',
+    broke: '實驗了auto-fill跟auto-fit的差別',
+    learned: 'fill空格子留著佔地 fit會收合讓1fr重算分母',
+    img: 'logs/day6.png',
+  },
 ]
 
 export default logs
