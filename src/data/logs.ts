@@ -63,6 +63,14 @@ const logs: LogEntry[] = [
     learned: 'fill空格子留著佔地 fit會收合讓1fr重算分母',
     img: 'logs/day6.png',
   },
+  {
+    day: 7,
+    block: '週考：重蓋與審醜',
+    built: '重蓋navbar',
+    broke: '審了部署上的醜點',
+    learned: '審醜是有方法的 逐項檢查不是靠感覺',
+    img: 'logs/day7.png',
+  },
 ]
 
 export default logs
