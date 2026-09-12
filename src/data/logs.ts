@@ -47,6 +47,14 @@ const logs: LogEntry[] = [
       '觀察到如果wrap拿掉並且shrink設成0 將頁面縮窄標籤壓縮到basis值後就不會再壓縮 只會變成頁面可以左右滑',
     img: 'logs/day4.png',
   },
+  {
+    day: 5,
+    block: '作品卡片（單張）',
+    built: '新增單張作品卡',
+    broke: '部署時遇到403跟Pages來源設定的坑',
+    learned: 'Build全綠不等於上線成功 部署鏈每一棒都可能單獨壞',
+    img: 'logs/day5.png',
+  },
 ]
 
 export default logs
