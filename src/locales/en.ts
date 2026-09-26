@@ -47,8 +47,7 @@ export default {
   },
   contact: {
     title: 'Contact',
-    email: 'Email',
-    linkedin: 'LinkedIn',
+    lead: 'Open to work and collaboration — feel free to reach out.',
   },
   footer: {
     rights: 'All Rights Reserved.',

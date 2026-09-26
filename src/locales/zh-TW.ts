@@ -47,8 +47,7 @@ export default {
   },
   contact: {
     title: '聯絡',
-    email: '電子郵件',
-    linkedin: 'LinkedIn',
+    lead: '想聊聊合作或工作機會，歡迎來信。',
   },
   footer: {
     rights: '版權所有。',

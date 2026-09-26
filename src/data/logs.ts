@@ -80,6 +80,14 @@ const logs: LogEntry[] = [
     learned: 'transition要寫在平常狀態 不然離開時不會有動畫',
     img: 'logs/day8.png',
   },
+  {
+    day: 9,
+    block: '聯絡區 + footer',
+    built: '新增聯絡區跟footer',
+    broke: '發現mailto沒設定郵件程式會失效',
+    learned: '連結文字要放地址本身 訪客才複製得到',
+    img: 'logs/day9.png',
+  },
 ]
 
 export default logs

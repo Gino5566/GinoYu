@@ -1,9 +1,10 @@
 <template>
-  <!-- 版型外殼：Day 9 掛 footer -->
   <NavBar />
   <router-view />
+  <SiteFooter />
 </template>
 
 <script setup lang="ts">
 import NavBar from './components/NavBar.vue'
+import SiteFooter from './components/SiteFooter.vue'
 </script>

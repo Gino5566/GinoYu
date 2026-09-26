@@ -60,6 +60,19 @@
         </article>
       </div>
     </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">{{ t('contact.title') }}</h2>
+      <p class="contact-lead">{{ t('contact.lead') }}</p>
+      <ul class="contact-links">
+        <li>
+          <a href="mailto:4a8g0069@stust.edu.tw">4a8g0069@stust.edu.tw</a>
+        </li>
+        <li>
+          <a href="https://github.com/Gino5566" target="_blank" rel="noopener">GitHub</a>
+        </li>
+      </ul>
+    </section>
   </main>
 </template>
 
@@ -216,5 +229,21 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
 .card-wip {
   color: var(--color-muted);
   font-size: 0.875rem;
+}
+
+.contact {
+  margin-top: var(--space-8);
+}
+
+.contact-lead {
+  margin-top: var(--space-2);
+  color: var(--color-muted);
+  max-width: 560px;
+}
+
+.contact-links {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
 }
 </style>
