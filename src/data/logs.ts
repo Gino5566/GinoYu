@@ -88,6 +88,14 @@ const logs: LogEntry[] = [
     learned: '連結文字要放地址本身 訪客才複製得到',
     img: 'logs/day9.png',
   },
+  {
+    day: 10,
+    block: 'RWD（一）：media query + navbar 行動版',
+    built: 'navbar行動版改兩行式',
+    broke: '實驗了basis 100%不寫wrap不會換行',
+    learned: 'basis只是願望 wrap才是讓願望成真的開關',
+    img: 'logs/day10.png',
+  },
 ]
 
 export default logs

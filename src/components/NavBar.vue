@@ -65,4 +65,18 @@ function toggleLocale() {
   padding: var(--space-1) var(--space-2);
   cursor: pointer;
 }
+
+/* 行動版兩行式：第一行 brand + 語言鈕（沿用 space-between），
+   連結列用 order 排到最後、basis 撐滿整行逼它折到第二行 */
+@media (max-width: 768px) {
+  .navbar-inner {
+    flex-wrap: wrap;  
+    gap: var(--space-2);
+  }
+
+  .nav-links {
+    order: 3;
+    flex-basis: 100%;
+  }
+}
 </style>
