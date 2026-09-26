@@ -246,4 +246,11 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
   gap: var(--space-3);
   margin-top: var(--space-2);
 }
+
+/* 行動版：hero 大標降級，避免在窄版面上過度霸道 */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+}
 </style>

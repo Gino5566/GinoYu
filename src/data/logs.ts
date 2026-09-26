@@ -96,6 +96,14 @@ const logs: LogEntry[] = [
     learned: 'basis只是願望 wrap才是讓願望成真的開關',
     img: 'logs/day10.png',
   },
+  {
+    day: 11,
+    block: 'RWD（二）：行動版間距與字級',
+    built: '首頁大標跟:root設計變數--space-8會根據螢幕寬度改變',
+    broke: ':root設計變數的響應式會因為@media移到前面導致不會生效',
+    learned: '把設計決策變成具名常數 避免決策參數散落各處變成magic number',
+    img: 'logs/day11.png',
+  },
 ]
 
 export default logs
