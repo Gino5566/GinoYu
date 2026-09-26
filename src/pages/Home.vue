@@ -139,6 +139,11 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
   flex: 1 1 240px;
   border: 1px solid var(--color-border);
   padding: var(--space-3);
+  transition: border-color 0.2s ease;
+}
+
+.skill-card:hover {
+  border-color: var(--color-accent);
 }
 
 .skill-card-grow3{
@@ -165,6 +170,12 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
 
 .project-card {
   border: 1px solid var(--color-border);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
 }
 
 .card-cover {

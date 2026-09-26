@@ -71,6 +71,15 @@ const logs: LogEntry[] = [
     learned: '審醜是有方法的 逐項檢查不是靠感覺',
     img: 'logs/day7.png',
   },
+  {
+    day: 8,
+    block: '卡片 hover / transition',
+    built: '實作技能跟作品卡片鼠標碰觸動畫',
+    broke:
+      '1.將transition搬進:hover transition會在鼠標接觸時才會有用 離開時不會生效 2.ease 就是先加速然後接近目標時煞車 3.translateY改成margin-top會因為排版布局改變的關係影響到其他UI元件 4.linear是勻速',
+    learned: 'transition要寫在平常狀態 不然離開時不會有動畫',
+    img: 'logs/day8.png',
+  },
 ]
 
 export default logs
