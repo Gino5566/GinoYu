@@ -28,7 +28,11 @@
       <h2 class="section-title">{{ t('projects.title') }}</h2>
       <div class="project-cards">
         <article class="project-card">
-          <div class="card-cover" aria-hidden="true">Portfolio</div>
+          <img
+            class="card-cover"
+            :src="`${base}covers/portfolio.png`"
+            :alt="t('projects.portfolio.name')"
+          />
           <div class="card-body">
             <h3>{{ t('projects.portfolio.name') }}</h3>
             <p>{{ t('projects.portfolio.desc') }}</p>
@@ -82,6 +86,9 @@ import { useI18n } from 'vue-i18n'
 const { t, tm, rt } = useI18n()
 
 const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
+
+// public/ 資產在子路徑部署下要接上 base（/GinoYu/）
+const base = import.meta.env.BASE_URL
 </script>
 
 <style scoped>
@@ -199,6 +206,12 @@ const skillGroups = ['frontend', 'gamedev', 'engineering'] as const
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* 封面是 <img> 時：撐滿卡寬，比例不合就裁切而非壓扁 */
+img.card-cover {
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-body {

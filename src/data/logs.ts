@@ -104,6 +104,14 @@ const logs: LogEntry[] = [
     learned: '把設計決策變成具名常數 避免決策參數散落各處變成magic number',
     img: 'logs/day11.png',
   },
+  {
+    day: 12,
+    block: 'favicon / OG 標籤 + 封面截圖',
+    built: 'favicon跟OG標籤 作品卡封面換真截圖',
+    broke: '實驗了object-fit的cover跟contain',
+    learned: 'cover犧牲完整性 contain犧牲滿版感 沒有兩全',
+    img: 'logs/day12.png',
+  },
 ]
 
 export default logs
