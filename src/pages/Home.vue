@@ -201,7 +201,8 @@ const base = import.meta.env.BASE_URL
 .card-cover {
   aspect-ratio: 16 / 9;
   background: var(--color-border);
-  color: var(--color-muted);
+  /* muted 壓在 border 底上對比只有 4.11:1，過不了 4.5 標準（Day 13 Lighthouse 抓包） */
+  color: var(--color-text);
   font-weight: 700;
   display: flex;
   align-items: center;

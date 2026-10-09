@@ -4,6 +4,9 @@
    margin / padding / gap 只准從間距階（8 的倍數）取值。
    ============================================================ */
 :root {
+  /* 告知瀏覽器兩種配色都支援：表單控件、捲軸等 UA 元件會跟著切換 */
+  color-scheme: light dark;
+
   --color-bg: #faf9f7;
   --color-text: #1f2328;
   --color-muted: #6f6a63;
@@ -16,6 +19,18 @@
   --space-4: 32px;
   --space-6: 48px;
   --space-8: 64px;
+}
+
+/* 深色模式：只重定義五個顏色 token，全站自動變裝。
+   accent 特意調亮——深底上的原藍對比不足。 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1b1e24;
+    --color-text: #e8e6e2;
+    --color-muted: #a09a90;
+    --color-accent: #6ea0f6;
+    --color-border: #363a42;
+  }
 }
 
 /* 行動版：收窄「區塊級」大間距。

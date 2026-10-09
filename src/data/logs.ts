@@ -112,6 +112,14 @@ const logs: LogEntry[] = [
     learned: 'cover犧牲完整性 contain犧牲滿版感 沒有兩全',
     img: 'logs/day12.png',
   },
+  {
+    day: 13,
+    block: '效能 polish + 深色模式',
+    built: '實作深色模式',
+    broke: '我試著將card-cover的變更改回 但感覺不出差別 然後4.11:1不達標我也不知道什麼意斯',
+    learned: '無障礙標準要靠儀器量不能靠感覺',
+    img: 'logs/day13.png',
+  },
 ]
 
 export default logs
