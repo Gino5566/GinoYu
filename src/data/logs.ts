@@ -120,6 +120,14 @@ const logs: LogEntry[] = [
     learned: '無障礙標準要靠儀器量不能靠感覺',
     img: 'logs/day13.png',
   },
+  {
+    day: 14,
+    block: '結業考',
+    built: '結業考重刻hero 技能 作品區',
+    broke: '少逗號跟media query位置都默默失效',
+    learned: '寫完要用F12確認規則有上班 不能信畫面差不多',
+    img: 'logs/day14.png',
+  },
 ]
 
 export default logs
