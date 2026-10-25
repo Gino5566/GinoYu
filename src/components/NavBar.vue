@@ -4,9 +4,18 @@
       <router-link class="brand" to="/">Gino Yu</router-link>
 
       <ul class="nav-links">
-        <li><a href="#skills">{{ t('nav.skills') }}</a></li>
-        <li><a href="#projects">{{ t('nav.projects') }}</a></li>
-        <li><a href="#contact">{{ t('nav.contact') }}</a></li>
+        <li>
+          <router-link :to="{ path: '/', hash: '#skills' }">{{ t('nav.skills') }}</router-link>
+        </li>
+        <li>
+          <router-link :to="{ path: '/', hash: '#projects' }">{{ t('nav.projects') }}</router-link>
+        </li>
+        <li>
+          <router-link :to="{ path: '/', hash: '#contact' }">{{ t('nav.contact') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/log">{{ t('nav.log') }}</router-link>
+        </li>
       </ul>
 
       <button class="lang-toggle" type="button" @click="toggleLocale">

@@ -5,6 +5,14 @@ export default {
     projects: '作品',
     about: '關於我',
     contact: '聯絡',
+    log: 'Build Log',
+  },
+  log: {
+    title: 'Build Log',
+    lead: '16 天重建這個網站的公開紀錄：每天蓋一個區塊、親手破壞它、記下學到的東西。筆記為當日原文，不潤飾。',
+    built: '蓋了',
+    broke: '破壞實驗',
+    learned: '學到',
   },
   home: {
     hero: {

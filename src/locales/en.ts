@@ -5,6 +5,14 @@ export default {
     projects: 'Projects',
     about: 'About',
     contact: 'Contact',
+    log: 'Build Log',
+  },
+  log: {
+    title: 'Build Log',
+    lead: 'A public record of rebuilding this site in 16 days: build a block, break it by hand, write down what was learned. Notes are kept verbatim (in Chinese).',
+    built: 'Built',
+    broke: 'Broke',
+    learned: 'Learned',
   },
   home: {
     hero: {

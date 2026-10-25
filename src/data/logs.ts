@@ -128,6 +128,14 @@ const logs: LogEntry[] = [
     learned: '寫完要用F12確認規則有上班 不能信畫面差不多',
     img: 'logs/day14.png',
   },
+  {
+    day: 15,
+    block: 'Build Log 頁（v-for 渲染）',
+    built: '今天新增了Builtlog頁面',
+    broke: '我去log.ts 在logs前面加斜線 試了以後好像沒差',
+    learned: '學到了一些資源路徑的格式需要考量後續像是import.meta.env.BASE_URL等快捷寫法',
+    img: 'logs/day15.png',
+  },
 ]
 
 export default logs
