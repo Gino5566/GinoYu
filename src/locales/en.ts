@@ -14,6 +14,26 @@ export default {
     broke: 'Broke',
     learned: 'Learned',
   },
+  method: {
+    title: 'How I Work with AI',
+    lead: 'This site was rebuilt in collaboration with AI — but the goal was never "let AI finish it". The goal was being able to explain every line and its trade-offs to another engineer. This page documents the actual method.',
+    loopTitle: 'The Four-Step Loop',
+    loop: [
+      'AI builds: one block per day, with a line-by-line breakdown — what each property does and what breaks without it.',
+      'I dissect: read every line until I can explain the why myself.',
+      'I break it: remove properties, change values, watch the layout collapse, then ask for the principle.',
+      'I rebuild: next day, re-create it from scratch in practice/ without looking, graded strictly by AI.',
+    ],
+    rulesTitle: 'Rules for the AI',
+    rules: [
+      'All notes are written by me; AI only formats them — every line in the Build Log is my own words.',
+      'When I am stuck: direction hints first, never the full answer.',
+      'When my understanding is wrong: correct me directly, no sugar-coating.',
+      'Final exam: AI observes only, and grades only when I ask.',
+    ],
+    resultTitle: 'The Result',
+    result: 'The final exam after 15 days: rebuilding the hero, skills and project grid by hand without looking at the source. Every issue caught was about rigor (a missing comma, inconsistent heading levels) — none were conceptual. The evidence for this method is this site itself, and the daily notes in the Build Log.',
+  },
   home: {
     hero: {
       kicker: 'Front-end Developer · Vue 3 / TypeScript',

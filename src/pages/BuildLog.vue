@@ -2,6 +2,7 @@
   <main class="log">
     <h1>{{ t('log.title') }}</h1>
     <p class="log-lead">{{ t('log.lead') }}</p>
+    <router-link class="log-method-link" to="/method">{{ t('method.title') }} →</router-link>
 
     <article class="log-entry" v-for="entry in logs" :key="entry.day">
       <h2 class="entry-title">Day {{ entry.day }} — {{ entry.block }}</h2>
@@ -50,6 +51,12 @@ const base = import.meta.env.BASE_URL
   margin-top: var(--space-2);
   color: var(--color-muted);
   max-width: 560px;
+}
+
+.log-method-link {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-weight: 700;
 }
 
 .log-entry {

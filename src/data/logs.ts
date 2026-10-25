@@ -136,6 +136,14 @@ const logs: LogEntry[] = [
     learned: '學到了一些資源路徑的格式需要考量後續像是import.meta.env.BASE_URL等快捷寫法',
     img: 'logs/day15.png',
   },
+  {
+    day: 16,
+    block: 'AI 協作方法頁',
+    built: '新增AI協作方法頁 加入ol的預設style list-style:none',
+    broke: '實驗了ol跟ul的差別',
+    learned: '預設把list-style關掉 要用編號得自己開回來',
+    img: 'logs/day16.png',
+  },
 ]
 
 export default logs
