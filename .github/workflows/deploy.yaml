@@ -21,6 +21,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      # SPA fallback：GitHub Pages 對不存在的路徑端出 404.html。
+      # 用 index.html 副本頂替，讓 /log 直連與重新整理都能進到 app。
+      - name: SPA 404 fallback
+        run: cp dist/index.html dist/404.html
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
